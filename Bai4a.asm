@@ -1,5 +1,5 @@
 .data
-     list: .word 3, 0, 5, 2, 6, 4, 4, 7, 3, 7
+     list: .word 3, 0, -2, 2, 6, 4, 4, 7, 3, 7
      n1: .asciiz "Hieu cua phan tu thu 2 va 5 la: "
 .text
     la $t0, list

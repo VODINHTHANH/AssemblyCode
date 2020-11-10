@@ -1,8 +1,8 @@
 .data
-    n1: .asciiz "Enter A: "
-    n2: .asciiz "Enter B: "
-    n3: .asciiz "Enter C: "
-    result: .asciiz "(A-B)+C = "
+    n1: .asciiz "Enter a: "
+    n2: .asciiz "Enter b: "
+    n3: .asciiz "Enter c: "
+    result: .asciiz "(a-b)+c = "
 
 .text
     #getting first input.
@@ -20,7 +20,7 @@
     li $v0, 5
     syscall
     move $s1, $v0
-	#getting first input.
+    #getting first input.
     la $a0, n3
     li $v0, 4
     syscall
