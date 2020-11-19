@@ -3,7 +3,7 @@ message: .asciiz " Enter input:"
 message1: .asciiz " Gia tri a sau khi tinh toan:"
 .text
 ori $t1, 0 #t1 = a = 0
-ori $t2, 200 #t2 = b = 200
+ori $t2, 100 #t2 = b = 100
 ori $t3, 4 #t3 = c = 4
 la $a0, message      #print out message
 li $v0, 4

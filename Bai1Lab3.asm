@@ -13,7 +13,7 @@ syscall
 
 move $t0,$v0          # t0 = a
 
-andi $t1 , $t0 , 0x0001
+andi $t1 , $t0 , 0x0001 #
 bgtz $t1, LE
 la $a0, string1      #print out message
 li $v0, 4

@@ -1,5 +1,5 @@
 .data
-message: .asciiz  "Computer Architecture CSE-HCMUT"
+message: .asciiz  "Computr Architctur CSE-HCMUT"
 e: .asciiz "e"
 .text
 la $t0, message #t0 = dia chi cua message
